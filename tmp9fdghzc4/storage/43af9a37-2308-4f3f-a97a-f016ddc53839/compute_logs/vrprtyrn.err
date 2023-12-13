@@ -1,0 +1,8 @@
+[32m2023-12-13 16:49:36 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 43af9a37-2308-4f3f-a97a-f016ddc53839 - 197132 - LOGS_CAPTURED - Started capturing logs in process (pid: 197132).
+[32m2023-12-13 16:49:36 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 43af9a37-2308-4f3f-a97a-f016ddc53839 - 197132 - my_second_asset - STEP_START - Started execution of step "my_second_asset".
+[32m2023-12-13 16:49:36 +0700[0m - dagster - [34mINFO[0m - __ASSET_JOB - 43af9a37-2308-4f3f-a97a-f016ddc53839 - my_second_asset - Output data is [4, 5, 6]
+[32m2023-12-13 16:49:36 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 43af9a37-2308-4f3f-a97a-f016ddc53839 - 197132 - my_second_asset - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2023-12-13 16:49:36 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 43af9a37-2308-4f3f-a97a-f016ddc53839 - my_second_asset - Writing file at: /home/vutha/dagster/tmp9fdghzc4/storage/my_second_asset using PickledObjectFilesystemIOManager...
+[32m2023-12-13 16:49:36 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 43af9a37-2308-4f3f-a97a-f016ddc53839 - 197132 - my_second_asset - ASSET_MATERIALIZATION - Materialized value my_second_asset.
+[32m2023-12-13 16:49:36 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 43af9a37-2308-4f3f-a97a-f016ddc53839 - 197132 - my_second_asset - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2023-12-13 16:49:36 +0700[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 43af9a37-2308-4f3f-a97a-f016ddc53839 - 197132 - my_second_asset - STEP_SUCCESS - Finished execution of step "my_second_asset" in 74ms.

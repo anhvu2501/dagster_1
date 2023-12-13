@@ -1,0 +1,8 @@
+[32m2023-12-13 17:27:02 +0700[0m - dagster - [34mDEBUG[0m - hello_dagster_job - c80f9e5d-d3ef-428a-adb3-c38cfa14f6ee - 259807 - LOGS_CAPTURED - Started capturing logs in process (pid: 259807).
+[32m2023-12-13 17:27:02 +0700[0m - dagster - [34mDEBUG[0m - hello_dagster_job - c80f9e5d-d3ef-428a-adb3-c38cfa14f6ee - 259807 - my_first_asset - STEP_START - Started execution of step "my_first_asset".
+[32m2023-12-13 17:27:02 +0700[0m - dagster - [34mINFO[0m - hello_dagster_job - c80f9e5d-d3ef-428a-adb3-c38cfa14f6ee - my_first_asset - this is a log message
+[32m2023-12-13 17:27:02 +0700[0m - dagster - [34mDEBUG[0m - hello_dagster_job - c80f9e5d-d3ef-428a-adb3-c38cfa14f6ee - 259807 - my_first_asset - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2023-12-13 17:27:02 +0700[0m - dagster - [34mDEBUG[0m - hello_dagster_job - c80f9e5d-d3ef-428a-adb3-c38cfa14f6ee - my_first_asset - Writing file at: /home/vutha/dagster/tmp9fdghzc4/storage/my_first_asset using PickledObjectFilesystemIOManager...
+[32m2023-12-13 17:27:02 +0700[0m - dagster - [34mDEBUG[0m - hello_dagster_job - c80f9e5d-d3ef-428a-adb3-c38cfa14f6ee - 259807 - my_first_asset - ASSET_MATERIALIZATION - Materialized value my_first_asset.
+[32m2023-12-13 17:27:02 +0700[0m - dagster - [34mDEBUG[0m - hello_dagster_job - c80f9e5d-d3ef-428a-adb3-c38cfa14f6ee - 259807 - my_first_asset - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2023-12-13 17:27:03 +0700[0m - dagster - [34mDEBUG[0m - hello_dagster_job - c80f9e5d-d3ef-428a-adb3-c38cfa14f6ee - 259807 - my_first_asset - STEP_SUCCESS - Finished execution of step "my_first_asset" in 126ms.
